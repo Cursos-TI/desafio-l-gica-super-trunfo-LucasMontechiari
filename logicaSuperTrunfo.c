@@ -43,7 +43,7 @@ int main(){
     pibPerCapita1 = pib1 / populacao1;
     superPoder1 = populacao1 + areaKm1 + pib1 + pibPerCapita1 + (1.0f / densidade1) + nPontosTuristicos1;
 
-    printf ("CARTA 1: \n");
+    printf ("\n CARTA 1: \n");
     printf ("ESTADO: %c \n", cartaEstado1 );
     printf ("CÓDIGO: %s \n", codCarta1 );
     printf ("NOME DA CIDADE: %s \n", nomeCidade1);
@@ -55,7 +55,7 @@ int main(){
     printf("PIB PER CAPITA: %.2f\n", pibPerCapita1);
     printf("SUPER PODER: %.2f\n", superPoder1);
 
-    printf ("Digite o estado (CARTA 2):\n");
+    printf ("\n Digite o estado (CARTA 2):\n");
     scanf (" %c", &cartaEstado2);
 
     printf ("Digite o código (CARTA 2):\n");
@@ -80,7 +80,7 @@ int main(){
     pibPerCapita2 = pib2 / populacao2;
     superPoder2 = populacao2 + areaKm2 + pib2 + pibPerCapita2 + (1.0f / densidade2) + nPontosTuristicos2;
 
-    printf ("CARTA 2: \n");
+    printf ("\n CARTA 2: \n");
     printf ("ESTADO: %c \n", cartaEstado2 );
     printf ("CÓDIGO: %s \n", codCarta2 );
     printf ("NOME DA CIDADE: %s\n", nomeCidade2);
